@@ -1,0 +1,111 @@
+[Workspace]
+CurrentProject=WebApp.src
+Location=C:\DataFlex Projects\FutbolWebApp\IdeSrc\LJ_Studio.dsk
+CreateNew=-1
+[TabWindows]
+GroupCount=1
+HorizontalGroups=1
+[TabGroup0]
+GroupSize=40
+SelectedTab=10
+[Window0]
+Filename=Workspace Dashboard
+ViewType=101
+Top=21
+Left=0
+Bottom=1069
+Right=1226
+TabIndex=0
+TabGroup=0
+[Window1]
+Filename=C:\DataFlex Projects\FutbolWebApp\AppSrc\WebApp.src
+ViewType=1
+Top=21
+Left=0
+Bottom=1069
+Right=1226
+CursorLine=0
+CursorColumn=0
+TabIndex=1
+TabGroup=0
+[Window2]
+Filename=C:\DataFlex Projects\FutbolWebApp\DDSrc\centrenadorDataDictionary.dd
+ViewType=3
+Top=21
+Left=0
+Bottom=1069
+Right=1226
+TabIndex=2
+TabGroup=0
+[Window3]
+Filename=C:\DataFlex Projects\FutbolWebApp\DDSrc\cequipoDataDictionary.dd
+ViewType=3
+Top=21
+Left=0
+Bottom=1069
+Right=1226
+TabIndex=3
+TabGroup=0
+[Window4]
+Filename=C:\DataFlex Projects\FutbolWebApp\DDSrc\chijoentrenadorDataDictionary.dd
+ViewType=3
+Top=21
+Left=0
+Bottom=1069
+Right=1226
+TabIndex=4
+TabGroup=0
+[Window5]
+Filename=C:\DataFlex Projects\FutbolWebApp\DDSrc\chijojugadorDataDictionary.dd
+ViewType=3
+Top=21
+Left=0
+Bottom=1069
+Right=1226
+TabIndex=5
+TabGroup=0
+[Window6]
+Filename=C:\DataFlex Projects\FutbolWebApp\DDSrc\cjugadorDataDictionary.dd
+ViewType=3
+Top=21
+Left=0
+Bottom=1069
+Right=1226
+TabIndex=6
+TabGroup=0
+[Window7]
+Filename=C:\DataFlex Projects\FutbolWebApp\DDSrc\cjugadorposicionDataDictionary.dd
+ViewType=3
+Top=21
+Left=0
+Bottom=1069
+Right=1226
+TabIndex=7
+TabGroup=0
+[Window8]
+Filename=C:\DataFlex Projects\FutbolWebApp\DDSrc\cligaDataDictionary.dd
+ViewType=3
+Top=21
+Left=0
+Bottom=1069
+Right=1226
+TabIndex=8
+TabGroup=0
+[Window9]
+Filename=C:\DataFlex Projects\FutbolWebApp\DDSrc\cnietodehijosDataDictionary.dd
+ViewType=3
+Top=21
+Left=0
+Bottom=1069
+Right=1226
+TabIndex=9
+TabGroup=0
+[Window10]
+Filename=C:\DataFlex Projects\FutbolWebApp\DDSrc\cposicionDataDictionary.dd
+ViewType=3
+Top=21
+Left=0
+Bottom=1069
+Right=1226
+TabIndex=10
+TabGroup=0

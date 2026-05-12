@@ -1,0 +1,17 @@
+*.exe
+*.dll
+*.obj
+*.dep
+*.err
+*.log
+*.bak
+*.tmp
+
+Programs/
+IdeSrc/Backup/
+AppHtml/DfEngine/
+
+Data/*.k*
+Data/*.vld
+
+__pycache__/
