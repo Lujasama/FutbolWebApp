@@ -9,11 +9,24 @@ HorizontalGroups=1
 GroupSize=40
 SelectedTab=10
 [Window0]
+<<<<<<< HEAD
+=======
+Filename=Workspace Dashboard
+ViewType=101
+Top=21
+Left=0
+Bottom=1069
+Right=1229
+TabIndex=0
+TabGroup=0
+[Window1]
+>>>>>>> 96615b3bdb98dbf9029a08ad6b73d6decf7cfea3
 Filename=C:\DataFlex Projects\FutbolWebApp\AppSrc\Dashboard.wo
 ViewType=1
 Top=21
 Left=0
 Bottom=1069
+<<<<<<< HEAD
 Right=2078
 CursorLine=88
 CursorColumn=69
@@ -128,4 +141,10 @@ Right=2078
 CursorLine=0
 CursorColumn=0
 TabIndex=10
+=======
+Right=1229
+CursorLine=88
+CursorColumn=69
+TabIndex=1
+>>>>>>> 96615b3bdb98dbf9029a08ad6b73d6decf7cfea3
 TabGroup=0
