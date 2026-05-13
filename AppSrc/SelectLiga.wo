@@ -8,6 +8,7 @@ Use cWebMenuGroup.pkg
 Use cWebMenuItem.pkg
 Use cWebColumnButton.pkg
 Use cWebColumn.pkg
+Use ZoomLiga.wo
 
 Use cligaDataDictionary.dd
 
@@ -34,12 +35,6 @@ Object oSelectLiga is a cWebView
         Set pbShowHeader to False
         Set piSortColumn to 0
 
-        Object oligaID is a cWebColumn
-            Entry_Item liga.ID
-            Set psCaption to "liga.ID"
-            Set piWidth to 100
-        End_Object 
-
         Object oligaNombre is a cWebColumn
             Entry_Item liga.Nombre
             Set psCaption to "liga.Nombre"
@@ -55,12 +50,6 @@ Object oSelectLiga is a cWebView
         Object oligaEquipos is a cWebColumn
             Entry_Item liga.Equipos
             Set psCaption to "liga.Equipos"
-            Set piWidth to 100
-        End_Object 
-
-        Object oligaEquiposMax is a cWebColumn
-            Entry_Item liga.EquiposMax
-            Set psCaption to "liga.EquiposMax"
             Set piWidth to 100
         End_Object 
 
@@ -138,7 +127,7 @@ Error DFERR_PROGRAM "NavigateForward to this from-parent child Select view not y
             Set psCaption to "New"
 
             WebRegisterPath ntNavigateForward oZoomLiga
-            
+
             Procedure OnClick
                 Send NavigatePath
             End_Procedure

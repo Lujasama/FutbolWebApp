@@ -44,10 +44,28 @@ Object oSelectJugador is a cWebView
         Set pbShowHeader to False
         Set piSortColumn to 0
 
-        Object oligaID is a cWebColumn
-            Entry_Item liga.ID
-            Set psCaption to "liga.ID"
-            Set piWidth to 100
+        Object ojugadorNombre is a cWebColumn
+            Entry_Item jugador.Nombre
+            Set psCaption to "jugador.Nombre"
+            Set piWidth to 600
+        End_Object 
+
+        Object ojugadorApellido is a cWebColumn
+            Entry_Item jugador.Apellido
+            Set psCaption to "jugador.Apellido"
+            Set piWidth to 600
+        End_Object 
+
+        Object ojugadorNacionalidad is a cWebColumn
+            Entry_Item jugador.Nacionalidad
+            Set psCaption to "jugador.Nacionalidad"
+            Set piWidth to 500
+        End_Object 
+
+        Object oequipoNombre is a cWebColumn
+            Entry_Item equipo.Nombre
+            Set psCaption to "equipo.Nombre"
+            Set piWidth to 1201
         End_Object 
 
         Object oligaNombre is a cWebColumn
@@ -60,18 +78,6 @@ Object oSelectJugador is a cWebView
             Entry_Item liga.Pais
             Set psCaption to "liga.Pais"
             Set piWidth to 500
-        End_Object 
-
-        Object oligaEquipos is a cWebColumn
-            Entry_Item liga.Equipos
-            Set psCaption to "liga.Equipos"
-            Set piWidth to 100
-        End_Object 
-
-        Object oligaEquiposMax is a cWebColumn
-            Entry_Item liga.EquiposMax
-            Set psCaption to "liga.EquiposMax"
-            Set piWidth to 100
         End_Object 
 
         Object oDetailButton is a cWebColumnButton
