@@ -24,11 +24,11 @@ Object oZoomEquipo is a cWebView
     End_Object 
 
     Object oequipo_DD is a cequipoDataDictionary
-        Set DDO_Server To oliga_DD
+        Set DDO_Server to oliga_DD
     End_Object 
 
-    Set Main_DD To oequipo_DD
-    Set Server  To oequipo_DD
+    Set Main_DD to oequipo_DD
+    Set Server  to oequipo_DD
 
 
     Object oWebMainPanel is a cWebPanel
@@ -48,10 +48,10 @@ Object oZoomEquipo is a cWebView
             Set piColumnSpan to 12
             Set piColumnIndex to 0
             Set peLabelPosition to lpTop
-            Set psLabel to "Nombre"
+            Set psLabel to "Nombre Liga"
             Set pbPromptButton to True
 
-            WebRegisterPath ntNavigateForward oSelectEquipo
+            WebRegisterPath ntNavigateForward oSelectLiga
 
             Procedure OnPrompt
                 Send NavigatePath
@@ -63,10 +63,10 @@ Object oZoomEquipo is a cWebView
             Set piColumnSpan to 9
             Set piColumnIndex to 0
             Set peLabelPosition to lpTop
-            Set psLabel to "Pais"
+            Set psLabel to "Pais Liga"
             Set pbPromptButton to True
 
-            WebRegisterPath ntNavigateForward oSelectEquipo
+            WebRegisterPath ntNavigateForward oSelectLiga
 
             Procedure OnPrompt
                 Send NavigatePath

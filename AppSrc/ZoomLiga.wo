@@ -52,8 +52,20 @@ Object oZoomLiga is a cWebView
             Set piColumnIndex to 0
             Set peLabelPosition to lpTop
             Set psLabel to "Equipos"
-        End_Object 
-    End_Object 
+        End_Object
+        
+        //Boton navegacion Ver Equipos
+        Object oEquiposBtn is a cWebButton
+            Set psCaption to "Ver Equipos"
+        
+            WebRegisterPath ntNavigateForward oSelectEquipo
+        
+            Procedure OnClick
+                Send NavigatePath
+            End_Procedure
+        End_Object
+
+    End_Object
 
     Object oActionGroup is a cWebMenuGroup
 
